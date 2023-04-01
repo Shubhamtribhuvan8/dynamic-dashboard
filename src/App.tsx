@@ -12,8 +12,6 @@ function App() {
        <br />
        <br />
        <Pie/>
-       {/* <Pie/>
-       <Pie/> */}
        <br />
        <br />
        <Linechart/>

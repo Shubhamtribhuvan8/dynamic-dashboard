@@ -24,7 +24,7 @@ function Pie() {
       const fetchData = async () => {
         const res: any = await axios.get<PieChart[]>('http://172.20.10.4:3001/api/widget/a20fb0f9-8296-4f5a-b4c4-4c4d64c4a316');
         setData(res.data.data);
-        console.log(res.data.data);
+        // console.log(res.data.data);
       };
   
       fetchData();

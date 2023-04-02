@@ -46,7 +46,7 @@ export default function AccessibleTable() {
       setTabular(res.data.data);
       setColumns(res.data.columns);
       
-      console.log(res.data.data);
+      // console.log(res.data.data);
     };
 
     fetchData();

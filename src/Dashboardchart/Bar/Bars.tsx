@@ -26,7 +26,7 @@ const Bars = () => {
       const fetchData = async () => {
         const res: any = await axios.get<BarGraph[]>('http://172.20.10.4:3001/api/widget/e6b5e40f-0ab4-4f22-8e4d-2dc5a6b4ad6a');
         setData(res.data.data);
-        console.log(res.data.data);
+        // console.log(res.data.data);
       };
   
       fetchData();

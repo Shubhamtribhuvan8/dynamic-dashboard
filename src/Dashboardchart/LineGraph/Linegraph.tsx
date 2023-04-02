@@ -23,7 +23,7 @@ const Linechart: React.FC = () => {
     const fetchData = async () => {
       const res: any = await axios.get<IData[]>('http://172.20.10.4:3001/api/widget/8d6ba3a3-02a6-4f2a-a0ea-5f6d7f89a38a');
       setData(res.data.data);
-      console.log(res.data.data);
+      // console.log(res.data.data);
     };
 
     fetchData();

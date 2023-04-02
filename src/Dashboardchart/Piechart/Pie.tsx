@@ -45,13 +45,6 @@ function Pie() {
             indexLabelFontSize: 16,
             indexLabel: "{label} - {y}",
             dataPoints: Pieline.map((item: any) => ({ y: item.value,label: item.label }))
-            // dataPoints: [
-            //     { y: 18, label: "Direct" },
-            //     { y: 49, label: "Organic Search" },
-            //     { y: 9, label: "Paid Search" },
-            //     { y: 5, label: "Referral" },
-            //     { y: 19, label: "Social" }
-            // ]
         }]
     };
 
